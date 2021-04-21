@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.optionBlock {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.optionLine {
+  border-radius: 5px;
+  background-color: transparent;
+  background-color: #B2373E;
+}
+
+.optionBlock:focus,
+.optionBlock:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #B2373E;
+}
